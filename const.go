@@ -28,7 +28,7 @@ var asciiControlChars = []rune{
 	'\x1a', '\x1b', '\x1c', '\x1d', '\x1e', '\x1f',
 	'\x7f'}
 
-// Won't filter the list below - please don't host your servers on DOS!
+// Go is not supported on DOS: https://go.dev/dl/, no need to filter the set below:
 //
 // In addition, in Windows and DOS utilities, some words are also reserved
 // and cannot be used as filenames.[19] For example, DOS device files:[21]
