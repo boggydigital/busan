@@ -1,2 +1,2 @@
-# pusan
+# busan
 🛂 Basic upload (filename) sanitizer
